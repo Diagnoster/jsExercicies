@@ -5,21 +5,19 @@ function calculadora(n1, n2, option) {
     var option
     switch(option) {
         case "soma": {
-            console.log(n1 + n2)
-            break
+            return 1 + 2
         }
         case "subtração": {
-            console.log(n1 - n2)
-            break
+            return 1 - 2
         }
         case "multiplicação": {
-            console.log(n1 * n2)
+            return 1 * 2
         }
         case "divisão": {
-            console.log(n1 / n2)
+            return 1 / 2
         }
         default: {
-            console.log("Calculo inválido!")
+            return "Calculo inválido!"
         }
     }
 }
