@@ -13,22 +13,22 @@ comando switch. Crie um caso default para produto não existente */
 function cardapio(item, quantidade) {
     switch(item) {
         case 100: {
-            return "Você comprou " + quantidade + " cachorro(s) quente(s)" + " e custou o total de" + " R$" + 3 * quantidade
+            return `Você comrou ${quantidade} cachorro(s) quente(s) e custou o total de R$ ${3 * quantidade}`
         }
         case 200: {
-            return "Você comprou " + quantidade + " Hambúrguer(es) Simples" + " e custou o total de" + " R$" + 4 * quantidade
+            return `Você comrou ${quantidade} hambúrguer(es) e custou o total de R$ ${4 * quantidade}`
         }
         case 300: {
-            return "Você comprou " + quantidade + " Cheeseburguer(es)" + " e custou o total de" + " R$" + 5.50 * quantidade
+            return `Você comrou ${quantidade} cheeseburguer(es) e custou o total de R$ ${5.50 * quantidade}`
         }
         case 400: {
-            return "Você comprou " + quantidade + " Bauru(s)" + " e custou o total de" + " R$" + 7.50 * quantidade
+            return `Você comrou ${quantidade} bauru(s) e custou o total de R$ ${7.50 * quantidade}`
         }
         case 500: {
-            return "Você comprou " + quantidade + " Refrigerante(s)" + " e custou o total de" + " R$" + 3.50 * quantidade
+            return `Você comrou ${quantidade} refrigerante(s) e custou o total de R$ ${3.50 * quantidade}`
         }
         case 600: {
-            return "Você comprou " + quantidade + " Suco(s)" + " e custou o total de" + " R$" + 2.80 * quantidade
+            return `Você comrou ${quantidade} suco(s) e custou o total de R$ ${2.80 * quantidade}`
         }
         default: {
             return "O produto não existe!"
